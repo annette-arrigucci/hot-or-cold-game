@@ -51,6 +51,7 @@ $(document).ready(function(){
   				$("#count").text(count);
   				$("#guessList").append("<li>" + guess +" </li>");
   				giveFeedback();
+          $('input:text').val('');
   			}
   		}
   	}
